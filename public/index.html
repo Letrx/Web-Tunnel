@@ -21,7 +21,7 @@
 
         <div class="row">
           <div class="eight columns offset-by-two">
-            <form action="" class="wiki-search-form">
+            <form action="no-js" method="get" id="unblocker-form">
               <input type="text" id="url" name="url" autofocus="autofocus" placeholder="https://letrx.com" class="wiki-search-input" id="wiki-search-input">
               <button type="submit" class="button btn btn-wiki">Git</button>
              </form>
@@ -41,21 +41,7 @@
   <!-- Results Page -->
 
     <div class="result hidden">
-      <header class="header">
-        <div class="container">
-          <div class="row">
-            <div class="two-thirds column">
-              <form action="no-js" method="get" id="unblocker-form">
-                <input type="text" placeholder="Search Wikipedia..." class="result-wiki-search-form-input" id="result-wiki-search-form-input">
-                <button class="btn result-btn-wiki">Wiki Search</button>
-              </form>
-            </div>
-            <div class="one-third column">
-              <h1>Wikipedia Search</h1>
-            </div>
-          </div>
-        </div>
-      </header>
+
 
       <div class="container">
         <section class="search-results">
@@ -604,7 +590,7 @@
   input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"] {
     height: 38px;
     padding: 6px 10px;
-    background-color: #fff;
+    background-color: #000;
     border: 1px solid #d1d1d1;
     border-radius: 4px;
     box-shadow: none;
